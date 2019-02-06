@@ -1,13 +1,19 @@
-MachineLearning -
+DeepLearning -
 
 Note: Some of the methods would be deprecated. Please replace them with the latest keywords/methods available. Care has been taken to update the methods as per the latest version available.
 
-Various Machine Learning Techniques with Problem description and solution are discussed here.
+Various Deep Learning Techniques with Problem description and solution are discussed here.
 
-Simple Regression:
+ANN:
 
-Simple regression considers the relation between a single explanatory variable and response variable and fits a regression line in 2-dimensional space. Simple Regression coefficients are estimated by minimizing ∑residuals2 (i.e., sum of the squared residuals) to derive this model: y = a+bx
+Neural networks consist of input and output layers, as well as a hidden layer consisting of units that transform the input into something that the output layer can use. They are excellent tools for finding patterns which are far too complex or numerous for a human programmer to extract and teach the machine to recognize.
 
-Linear Regression:
+CNN:
 
-Multiple regression simultaneously considers the influence of multiple explanatory variables on a response variable Y. The main purpose of the best fit line is that our predicted values should be closer to our actual or the observed values. The difference between the observed value of the dependent variable (y) and the predicted value (ŷ) is called the residual (e). Ordinary Least Squares (OLS) regression is a linear model that seeks to find a set of coefficients for a line/hyper-plane that minimize the sum of the squared errors.
+ConvNet architectures make the explicit assumption that the inputs are images, which allows us to encode certain properties into the architecture. These then make the forward function more efficient to implement and vastly reduce the amount of parameters in the network.
+A simple ConvNet is a sequence of layers, and every layer of a ConvNet transforms one volume of activations to another through a differentiable function. We use three main types of layers to build ConvNet architectures: Convolutional Layer, Pooling Layer, and Fully-Connected Layer.
+
+
+RNN: 
+
+Recurrent Neural Networks (RNN) are a powerful and robust type of neural networks and belong to the most promising algorithms out there at the moment because they are the only ones with an internal memory. Recurrent Neural Networks produce predictive results in sequential data that other algorithms can’t.
